@@ -94,6 +94,7 @@ nav span {
 
 .about {
 	display: flex;
+	margin-bottom: 5rem;
 }
 
 .phil_app {
@@ -112,4 +113,22 @@ nav span {
 	width: 10rem;
 	padding: .5rem 1.25rem;
 	margin-bottom: 1rem;
+}
+
+/*footer section*/
+
+footer {
+	background-color: azure;
+}
+
+.foot {
+	display: flex;
+	align-items: center;
+	padding: 4rem 0;
+}
+
+.foot img {
+	height: 1.5rem;
+	padding-left: 4rem;
+	padding-right: 1rem;
 }
