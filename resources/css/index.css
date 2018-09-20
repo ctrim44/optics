@@ -132,3 +132,32 @@ footer {
 	padding-left: 4rem;
 	padding-right: 1rem;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1020px) {
+
+	.container {
+		width: 100%;
+	}
+
+	.Banner {
+		height: 22rem;
+	}
+
+	.ribbon {
+		position: static;
+	}
+
+	.sml_ribbon {
+		position: relative;
+		right: 2rem;
+		margin-top: 5rem;
+		padding: .75rem 3rem;
+	}
+
+	.sml_ribbon p {
+		font-size: 1.33rem;
+	}
+
+}
