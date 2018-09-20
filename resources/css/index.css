@@ -47,6 +47,10 @@ nav span {
 	padding-right: 2rem;
 }
 
+#menu {
+	display: none;
+}
+
 .sml_ribbon {
 	padding: 1.5rem 5rem;
 	background-color: white;
@@ -159,5 +163,26 @@ footer {
 	.sml_ribbon p {
 		font-size: 1.33rem;
 	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.Banner {
+		background-position: 20%;
+		height: 17rem;
+	}
+
+	#nav{
+		display: none;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	.sml_ribbon {
+		margin-top: 9rem;
+	} /*width?????/*
 
 }
