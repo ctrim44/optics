@@ -89,3 +89,27 @@ nav span {
 .cute_box #sml_icon {
 	width: 3.5rem;
 }
+
+/* Phil and App section*/
+
+.about {
+	display: flex;
+}
+
+.phil_app {
+	padding-left: 5%;
+	width: 35%;
+}
+
+.move_right {
+	margin-left: 3rem;
+}
+
+.phil_app p {
+	background-color: cadetblue;
+	color: white;
+	font-weight: bold;
+	width: 10rem;
+	padding: .5rem 1.25rem;
+	margin-bottom: 1rem;
+}
