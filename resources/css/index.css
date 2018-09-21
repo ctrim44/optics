@@ -183,6 +183,52 @@ footer {
 
 	.sml_ribbon {
 		margin-top: 9rem;
-	} /*width?????/*
+		padding: .5rem 3rem;
+		width: 100%;
+		text-align: center;
+		position: static;
+	} 
+
+	.icons {
+		flex-direction: column;
+		align-items: center;
+		padding: 3.77rem 0;
+	}
+
+	.cute_box {
+		margin-top: 1.54rem;
+		height: 7rem;
+		display: block;
+	}
+
+	.cute_box p {
+		font-size: .77rem;
+		padding-top: .5rem;
+	}
+
+	.about {
+		flex-direction: column;
+	}
+
+	.phil_app {
+		padding-left: 0;
+		padding-bottom: 4rem;
+		width: 100%;
+	}
+
+	.move_right {
+		margin: 0;
+	}
+
+	.phil_app p {
+		width: 100%;
+		text-align: center;
+		padding: .5rem 0;
+	}
+
+	.foot img {
+		margin: auto;
+		padding: 0;
+	}
 
 }
